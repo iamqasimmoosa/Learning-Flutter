@@ -17,7 +17,7 @@ class _CustomwidgtState extends State<Customwidgt> {
       ),
       body: Column(
         children: [
-          ElevatedButton(onPressed: (){}, child: Text('ghsdfghs')),
+          ElevatedButton(onPressed: (){}, child: Text('Elevated')),
           Center(
             child: RoundedButton(btnName: "Rounded button",
               icon:const Icon(Icons.add ,color: Colors.white,),
